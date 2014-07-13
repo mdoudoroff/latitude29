@@ -58,6 +58,37 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/img\/logotype-tmp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 376812,
+		"inputAbbreviatedPath": "\/img\/logotype-tmp.png",
+		"outputAbbreviatedPath": "\/img\/logotype-tmp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logotype.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113199,
+		"inputAbbreviatedPath": "\/img\/logotype.jpg",
+		"outputAbbreviatedPath": "\/img\/logotype.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/js\/foundation.min.js": {
 		"fileType": 64,
 		"ignore": 0,
