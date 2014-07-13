@@ -1,5 +1,44 @@
 body {
-	background-color: #502e24;
-	color:white;
+	background-color: white;
+	color:black;
 	text-align: center;
+}
+
+h1 {
+	font-family: "open-sans", sans-serif;
+}
+
+p {
+	font-family: "open-sans", sans-serif;
+	font-size:28px;
+	line-height: 1.4;
+}
+
+p.large {
+	font-size:48px;
+	text-transform: uppercase;
+}
+
+figure {
+	margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 568px) {
+
+	p {
+		font-size: 20px;
+	}	
+
+	p.large {
+		font-size: 30px;
+	}
+
+	#mc-embedded-subscribe-form #mce-EMAIL {
+		width:90%;
+	}
+
+	figure {
+		margin:9px 9px 24px 9px;
+		width:95%;
+	}
 }
