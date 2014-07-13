@@ -20,10 +20,10 @@ figure {
 }
 @media only screen and (max-width: 568px) {
   p {
-    font-size: 20px;
+    font-size: 19px;
   }
   p.large {
-    font-size: 30px;
+    font-size: 19px;
   }
   #mc-embedded-subscribe-form #mce-EMAIL {
     width: 90%;
