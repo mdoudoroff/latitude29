@@ -8,28 +8,40 @@
     <script src="js/vendor/modernizr.js"></script>
     <script type="text/javascript" src="//use.typekit.net/xpp1kmx.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
     <!-- Begin MailChimp CSS here -->
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <!-- End MailChimp CSS -->
     <link rel="stylesheet" href="css/style2.css" />
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 364693272,
+            accessToken: '364693272.467ede5.1510dcff7cc1431ea8ece35ec5ae15f9',
+            sortBy: 'most-recent',
+            limit: 6,
+            resolution: 'low_resolution'
+
+        });
+        userFeed.run();
+    </script>
   </head>
   <body>
     
     <div class="row">
       <div class="large-12 columns">
 
-        <figure style="margin-left:0;margin-right:0;padding:0;width:100%;">
-          <p id="hours">Tuesday-Thursday 3PM until 11PM<br />Friday-Sunday 11AM until 11PM<br />Closed Monday</p>
-          <p id="masthead-address">321 N. Peters Street</p>
-          <p id="masthead-phone">Reservations: XXX-XXX-XXXX</p>
-          <img src="img/rough.masthead.jpg" alt="Latitude 29" />
-        </figure>
+        <embed type="image/svg+xml" src="img/Latitude Map.svg" />
+
+        <p id="hours">Tuesday-Thursday 3PM until 11PM<br />Friday-Sunday 11AM until 11PM<br />Closed Monday</p>
+        <p id="masthead-address"><a href="http://maps.apple.com/?lsp=6489&sll=29.953576,-90.065188&q=29.953576,-90.065188">321 N. Peters Street</a></p>
+        <p id="masthead-phone">Reservations: <a href="tel:+15046093811">(504) 609-3811</a></p>
+
+
         <p>Enter from N. Peters Street or through the Bienville House Hotel</p>
 
 
-        <section>
-          <p>(promotional photos go here)</p>
-        </section>
+        <div id="instafeed"></div>
 
         <section>
           <p>(upcoming events go here, if any… must be presented concisely)</p>
