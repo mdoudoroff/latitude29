@@ -6,10 +6,22 @@ html {
 }
 body {
   font-family: "open-sans", sans-serif;
+  color: #52241c;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "open-sans", sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  color: #52241c;
 }
 h2 {
-  font-family: "open-sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
+  color: #ec4281;
 }
 figure {
   margin-bottom: 24px;
@@ -41,9 +53,12 @@ section {
   background-color: #592a1e;
   color: white;
 }
+#instafeed {
+  padding-bottom: 2em;
+}
 @media only screen and (max-width: 568px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
   #mc-embedded-subscribe-form #mce-EMAIL {
     width: 90%;
@@ -56,7 +71,7 @@ section {
 }
 @media only screen and (max-width: 390px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
   #mc-embedded-subscribe-form #mce-EMAIL {
     font-size: 17px;
