@@ -20,7 +20,7 @@ h1 {
   color: #52241c;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #ec4281;
 }
 figure {
@@ -55,6 +55,14 @@ section {
 }
 #instafeed {
   padding-bottom: 2em;
+}
+#drinkmenu,
+#foodmenu {
+  text-align: left;
+}
+#drinkmenu h2,
+#foodmenu h2 {
+  margin-bottom: 0;
 }
 @media only screen and (max-width: 568px) {
   html {
