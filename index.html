@@ -16,15 +16,16 @@
     <!-- End MailChimp CSS -->
     <link rel="stylesheet" href="css/style2.css" />
     <script type="text/javascript">
-        var userFeed = new Instafeed({
-            get: 'user',
-            userId: 1367559491,
-            accessToken: '1367559491.467ede5.d347bd2687cb4445bda19a62d21e4509',
-            sortBy: 'most-recent',
-            limit: 6,
-            resolution: 'low_resolution'
-        });
-        userFeed.run();
+    var feed = new Instafeed({
+        get: 'user',
+        userId: 1367559491,
+        sortBy: 'most-recent',
+        limit: 6,
+        resolution: 'low_resolution',
+        clientId: '0bd73b342b9b43c9bfce2b0422a4b3c7',
+        accessToken: '1367559491.e31f981.72383160f0ec459ea05a50231b59ea3d',
+    });
+    feed.run();
     </script>
   </head>
   <body itemscope itemtype="http://schema.org/Restaurant">
