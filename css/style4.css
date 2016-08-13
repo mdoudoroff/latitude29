@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+body {
+  font-family: "paralucent-text", "paralucent-condensed", "open-sans", sans-serif;
+  color: #52241c;
+  background: white;
+  background: url('../img/bkgd.jpg');
+  background-size: 640px 450px;
+  background-position: -50px 150px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+}
+strong {
+  font-weight: bold;
+}
+#wrap {
+  margin: 0 0.5em;
+  padding-top: 0.5em;
+  max-width: 960px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "paralucent-condensed", "open-sans", sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2rem;
+  color: #52241c;
+}
+h2 {
+  font-size: 1.25rem;
+  color: #ec4281;
+}
+figure {
+  margin-bottom: 24px;
+  position: relative;
+}
+img {
+  max-width: 100%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#mc_embed_signup {
+  clear: left;
+}
+#mc-embedded-subscribe-form {
+  padding-top: 0;
+}
+#mc-embedded-subscribe-form #mce-EMAIL {
+  margin: 9px auto;
+  border-color: #592a1e;
+  font-size: 20px;
+  margin-top: 0;
+}
+#mc-embedded-subscribe-form #mc-embedded-subscribe {
+  margin: 9px auto;
+  font: 14px "open-sans", sans-serif;
+  background-color: #592a1e;
+}
+section {
+  border-top: 1px solid red;
+}
+#footer {
+  background-color: #52241c;
+  color: white;
+  padding-bottom: 1em;
+}
+#footer a {
+  color: #ccccff;
+}
+#instafeed img {
+  width: 50%;
+  margin: 0;
+  display: block;
+  float: left;
+}
+#masthead {
+  text-align: center;
+}
+#masthead-logo {
+  width: 100%;
+  max-width: 540px;
+}
+#drinkmenu,
+#foodmenu {
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#drinkmenu h2,
+#foodmenu h2 {
+  margin-bottom: 0;
+}
+#masthead-hours,
+#masthead-address,
+#drinkmenu,
+#foodmenu {
+  font-size: 90%;
+  text-align: left;
+  border: 1px solid rgba(82, 36, 28, 0.7);
+  border-radius: 3px;
+  margin: 0 0 0.5em 0;
+  padding: 0.5em;
+}
+#masthead-hours span,
+#masthead-address span,
+#drinkmenu span,
+#foodmenu span {
+  white-space: nowrap;
+  margin-right: 1em;
+}
+#drinkmenu,
+#foodmenu {
+  text-align: center;
+  clear: all;
+}
+#foodmenu h2 {
+  color: #fa8a3b;
+}
+@media only screen and (min-width: 330px) {
+  #masthead-hours,
+  #masthead-address {
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #masthead-hours,
+  #masthead-address {
+    text-align: center;
+  }
+  #instafeed img {
+    width: 33.3%;
+    margin: 0;
+    display: block;
+    float: left;
+  }
+  #drinkmenu {
+    width: 47%;
+    float: left;
+  }
+  #foodmenu {
+    width: 47%;
+    float: right;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #wrap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 568px) {
+  #mc-embedded-subscribe-form #mce-EMAIL {
+    width: 90%;
+    font-size: 20px;
+  }
+  figure {
+    margin: 9px 9px 24px 9px;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  #mc-embedded-subscribe-form #mce-EMAIL {
+    font-size: 17px;
+  }
+}
