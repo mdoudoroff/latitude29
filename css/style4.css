@@ -217,6 +217,13 @@ section {
 #footer-logotype {
   max-width: 360px;
 }
+#notices {
+  max-width: 640px;
+  margin: 0.5em auto;
+}
+#notices p {
+  margin-bottom: 1em;
+}
 #social {
   text-align: center;
   margin: 0.5em 0;
@@ -237,6 +244,7 @@ section {
   float: left;
 }
 #masthead {
+  margin-top: 1em;
   text-align: center;
 }
 #masthead-logo {
