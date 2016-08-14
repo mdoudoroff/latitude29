@@ -167,6 +167,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon.facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 975,
+		"inputAbbreviatedPath": "\/img\/icon.facebook.png",
+		"outputAbbreviatedPath": "\/img\/icon.facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon.instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1472,
+		"inputAbbreviatedPath": "\/img\/icon.instagram.png",
+		"outputAbbreviatedPath": "\/img\/icon.instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon.twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1130,
+		"inputAbbreviatedPath": "\/img\/icon.twitter.png",
+		"outputAbbreviatedPath": "\/img\/icon.twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logotype-tmp.png": {
 		"fileType": 32768,
 		"ignore": 0,

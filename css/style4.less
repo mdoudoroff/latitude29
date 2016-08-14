@@ -141,8 +141,27 @@ section {
 		color: @linkColorLightened;
 	}
 	padding-bottom: 1em;
+	max-width: 960px;
 }
 
+#footer-logotype {
+	max-width: 360px;
+}
+
+#social {
+	text-align: center;
+	margin: 0.5em 0;
+	a img {
+		max-width: 25px;
+	}
+
+	a {
+		margin-right: 4em;
+	}
+	a:last-of-type {
+		margin-right: 0;
+	}
+}
 #instafeed {
 
 	img {
@@ -168,11 +187,22 @@ section {
 	text-align: left;
 	margin-top: 1em;
 	margin-bottom: 1em;
+
+	h1, h2 {
+		margin-bottom:0;
+		margin-top:0.5em;
+	}
+
+	p {
+		margin-top:0;
+		margin-bottom:0;
+	}
 }
 
-#drinkmenu h2, #foodmenu h2 {
-	margin-bottom:0;
-}
+
+
+
+
 
 #masthead-hours, #masthead-address, #drinkmenu, #foodmenu {
 	font-size: 90%;
@@ -228,7 +258,7 @@ section {
 }
 
 @media only screen and (min-width: 960px) {
-	#wrap { margin-left: auto; margin-right: auto; }
+	#wrap, #footer { margin-left: auto; margin-right: auto; }
 
 }
 
