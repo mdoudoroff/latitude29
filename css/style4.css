@@ -324,27 +324,32 @@ section {
   max-width: 540px;
 }
 #drinkmenu,
-#foodmenu {
+#foodmenu,
+#happyhourmenu {
   text-align: left;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 #drinkmenu h1,
 #foodmenu h1,
+#happyhourmenu h1,
 #drinkmenu h2,
-#foodmenu h2 {
+#foodmenu h2,
+#happyhourmenu h2 {
   margin-bottom: 0;
   margin-top: 0.5em;
 }
 #drinkmenu p,
-#foodmenu p {
+#foodmenu p,
+#happyhourmenu p {
   margin-top: 0;
   margin-bottom: 0;
 }
 #masthead-hours,
 #masthead-address,
 #drinkmenu,
-#foodmenu {
+#foodmenu,
+#happyhourmenu {
   font-size: 90%;
   text-align: left;
   border: 1px solid rgba(82, 36, 28, 0.7);
@@ -355,12 +360,14 @@ section {
 #masthead-hours span,
 #masthead-address span,
 #drinkmenu span,
-#foodmenu span {
+#foodmenu span,
+#happyhourmenu span {
   white-space: nowrap;
   margin-right: 1em;
 }
 #drinkmenu,
-#foodmenu {
+#foodmenu,
+#happyhourmenu {
   text-align: center;
   clear: all;
 }
@@ -402,6 +409,10 @@ section {
   #foodmenu {
     width: 47%;
     float: right;
+  }
+  #happyhourmenu {
+    max-width: 500px;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 960px) {
