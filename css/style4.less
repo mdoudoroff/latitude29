@@ -149,11 +149,21 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size:	2rem;
 	color: @baseColor;
+
+}
+
+h1.giant {
+	font-size: 3rem;
 }
 
 h2 {
 	font-size: 1.25rem;
 	color: @l29pink;
+}
+
+h2.giant {
+	font-size: 2rem;
+	color: @l29orange;
 }
 
 figure {
@@ -301,7 +311,7 @@ section {
 
 
 
-#masthead-hours, #masthead-address, #drinkmenu, #foodmenu, #happyhourmenu {
+#masthead-hours, #masthead-address, #drinkmenu, #foodmenu, #happyhourmenu, #happyhourpromo {
 	font-size: 90%;
 	text-align: left;
 	border: 1px solid @baseColorLightened;
@@ -312,13 +322,18 @@ section {
 	span {white-space: nowrap; margin-right:1em;}
 }
 
-#drinkmenu, #foodmenu, #happyhourmenu {
+#drinkmenu, #foodmenu, #happyhourmenu, #happyhourpromo {
 	text-align: center;
 	clear:all;
 }
 
 #foodmenu h2 {
 	color: @l29orange;
+}
+
+#happyhourpromo {
+	max-width: 600px;
+	margin: 2em auto;
 }
 
 @media only screen and (min-width: 330px) {

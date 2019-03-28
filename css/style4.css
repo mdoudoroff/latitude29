@@ -212,9 +212,16 @@ h1 {
   font-size: 2rem;
   color: #52241c;
 }
+h1.giant {
+  font-size: 3rem;
+}
 h2 {
   font-size: 1.25rem;
   color: #ec4281;
+}
+h2.giant {
+  font-size: 2rem;
+  color: #fa8a3b;
 }
 figure {
   margin-bottom: 24px;
@@ -349,7 +356,8 @@ section {
 #masthead-address,
 #drinkmenu,
 #foodmenu,
-#happyhourmenu {
+#happyhourmenu,
+#happyhourpromo {
   font-size: 90%;
   text-align: left;
   border: 1px solid rgba(82, 36, 28, 0.7);
@@ -361,18 +369,24 @@ section {
 #masthead-address span,
 #drinkmenu span,
 #foodmenu span,
-#happyhourmenu span {
+#happyhourmenu span,
+#happyhourpromo span {
   white-space: nowrap;
   margin-right: 1em;
 }
 #drinkmenu,
 #foodmenu,
-#happyhourmenu {
+#happyhourmenu,
+#happyhourpromo {
   text-align: center;
   clear: all;
 }
 #foodmenu h2 {
   color: #fa8a3b;
+}
+#happyhourpromo {
+  max-width: 600px;
+  margin: 2em auto;
 }
 @media only screen and (min-width: 330px) {
   #masthead-hours,
