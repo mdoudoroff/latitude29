@@ -7,7 +7,7 @@
 		"uuidString": "C0F083D6-0562-46B1-9E12-8160391F29AB"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -24,6 +24,28 @@
 		"oA": 1,
 		"oAP": "/_events.html",
 		"oF": 0
+		},
+	"/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 42875,
+		"oA": 1,
+		"oAP": "/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 229526,
+		"oA": 1,
+		"oAP": "/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/announce.md": {
 		"cB": 0,
@@ -43,6 +65,17 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 38617,
+		"oA": 1,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/css/foundation.css": {
 		"aP": 1,
@@ -89,7 +122,6 @@
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 0,
 		"mS": 0,
@@ -116,7 +148,6 @@
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 0,
 		"mS": 0,
@@ -143,7 +174,6 @@
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 0,
 		"mS": 0,
@@ -170,7 +200,6 @@
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 0,
 		"mS": 0,
@@ -181,6 +210,44 @@
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
+		},
+	"/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 911,
+		"oA": 1,
+		"oAP": "/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2372,
+		"oA": 1,
+		"oAP": "/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/happyhour-pre-pandemic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/happyhour-pre-pandemic.html",
+		"oF": 0
 		},
 	"/happyhour.html": {
 		"cB": 0,
@@ -204,12 +271,12 @@
 		"oAP": "/build/img",
 		"oF": 0
 		},
-	"/index-old.html": {
+	"/index-pre-pandemic.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index-old.html",
+		"oAP": "/index-pre-pandemic.html",
 		"oF": 0
 		},
 	"/index.html": {
@@ -218,14 +285,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/index2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index2.html",
 		"oF": 0
 		},
 	"/js/foundation.min.js": {
@@ -492,20 +551,20 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/menu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/menu.html",
-		"oF": 0
-		},
 	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/robots.txt",
+		"oF": 0
+		},
+	"/roomservice-pre-pandemic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/roomservice-pre-pandemic.html",
 		"oF": 0
 		},
 	"/roomservice.html": {
@@ -516,12 +575,12 @@
 		"oAP": "/roomservice.html",
 		"oF": 0
 		},
-	"/swag.html": {
+	"/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/swag.html",
+		"oAP": "/site.webmanifest",
 		"oF": 0
 		}
 	},
@@ -533,11 +592,12 @@
 	"creationDate": 532356260,
 	"displayValue": "Latitude29",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-owl",
+	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -549,6 +609,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -688,6 +749,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -719,6 +783,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -813,11 +880,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": "> 1%, last 2 versions, ff 17, opera 12.1",
@@ -962,6 +1028,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -1066,6 +1133,14 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"dot-location": {
 			"active": 0,
 			"optionString": "'object'"
@@ -1117,6 +1192,10 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
+			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -1294,6 +1373,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1319,6 +1402,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1414,6 +1501,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-inline-comments": {
 			"active": 0,
 			"optionString": ""
@@ -1455,6 +1546,10 @@
 			"optionString": ""
 			},
 		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loss-of-precision": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1574,6 +1669,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
+			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
@@ -1616,6 +1715,10 @@
 			},
 		"no-sequences": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-setter-return": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-shadow": {
@@ -1713,6 +1816,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -1822,6 +1929,14 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1833,6 +1948,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2442,7 +2561,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2511,13 +2629,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 5,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -2575,8 +2693,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, blog, articles, prem, prot, images, images_sel, images_selected, img, gfx, ad, WEB-INF, WEB-INF.bak, Templates",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
