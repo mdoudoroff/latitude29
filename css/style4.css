@@ -173,7 +173,7 @@ html {
   background-color: white;
   color: black;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
 }
 body {
   font-family: "paralucent-text", "paralucent-condensed", sans-serif;
@@ -359,22 +359,12 @@ section {
 #happyhourmenu,
 #happyhourpromo,
 #safety {
-  font-size: 90%;
+  font-size: 0.9rem;
   text-align: left;
   border: 1px solid rgba(82, 36, 28, 0.7);
   border-radius: 3px;
   margin: 0 0 0.5em 0;
   padding: 0.5em;
-}
-#masthead-hours span,
-#masthead-address span,
-#drinkmenu span,
-#foodmenu span,
-#happyhourmenu span,
-#happyhourpromo span,
-#safety span {
-  white-space: nowrap;
-  margin-right: 1em;
 }
 #drinkmenu,
 #foodmenu,
@@ -403,7 +393,7 @@ section {
 @media only screen and (min-width: 330px) {
   #masthead-hours,
   #masthead-address {
-    font-size: 100%;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 600px) {

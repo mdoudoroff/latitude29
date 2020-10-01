@@ -108,7 +108,7 @@ html {
 	background-color: white;
 	color:black;
 	text-align: center;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 
@@ -312,14 +312,13 @@ section {
 
 
 #masthead-hours, #masthead-address, #drinkmenu, #foodmenu, #happyhourmenu, #happyhourpromo, #safety {
-	font-size: 90%;
+	font-size: 0.9rem;
 	text-align: left;
 	border: 1px solid @baseColorLightened;
 	border-radius: 3px;
 	margin: 0 0 0.5em 0;
 	padding: 0.5em;
 
-	span {white-space: nowrap; margin-right:1em;}
 }
 
 #drinkmenu, #foodmenu, #happyhourmenu, #happyhourpromo, #safety {
@@ -349,7 +348,7 @@ section {
 @media only screen and (min-width: 330px) {
 
 	#masthead-hours, #masthead-address {
-		font-size:100%;
+		font-size:1rem;
 	}
 }
 
@@ -360,39 +359,27 @@ section {
 
 	#instafeed {
 
-	// 	a {
-	// 		width: 33.3%;
-	// 		margin:0;
-	// 		display: block;
-	// 		float:left;
 
-	// 		img {
-	// 			r
-	// 		}
-	// 	}
+		.instasquare {
+		    float:left;
+		    position: relative;
+		    width: 30%;
+		    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+		    margin:1.66%;
+		    overflow:hidden;
+		}
 
-	.instasquare {
-	    float:left;
-	    position: relative;
-	    width: 30%;
-	    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-	    margin:1.66%;
-	    overflow:hidden;
-	}
+		.instacontent {
+		    position:absolute;
+		    // height:80%; /* = 100% - 2*10% padding */
+		    // width:90%; /* = 100% - 2*5% padding */
+		    // padding: 10% 5%;
 
-	.instacontent {
-	    position:absolute;
-	    // height:80%; /* = 100% - 2*10% padding */
-	    // width:90%; /* = 100% - 2*5% padding */
-	    // padding: 10% 5%;
+		    height:96%; /* = 100% - 2*10% padding */
+		    width:98%; /* = 100% - 2*5% padding */
+		    padding: 2% 1%;
 
-	    height:96%; /* = 100% - 2*10% padding */
-	    width:98%; /* = 100% - 2*5% padding */
-	    padding: 2% 1%;
-
-
-	}
-
+		}
 
 	}
 
