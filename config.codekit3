@@ -7,7 +7,7 @@
       "uuidString" : "C0F083D6-0562-46B1-9E12-8160391F29AB"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34564",
   "files" : {
     "\/_events.html" : {
       "cB" : 0,
@@ -239,6 +239,36 @@
       "sI" : 0,
       "sU" : 0
     },
+    "\/css\/style5.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style5-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/style5.less" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "eJ" : 0,
+      "ft" : 1,
+      "iI" : 0,
+      "ma" : 0,
+      "mS" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style5.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "rwU" : 0,
+      "sI" : 0,
+      "sU" : 0
+    },
     "\/favicon-16x16.png" : {
       "ft" : 32768,
       "iS" : 911,
@@ -273,20 +303,28 @@
       "oAP" : "\/favicon.ico",
       "oF" : 0
     },
+    "\/happyhour-bak.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/happyhour-bak.html",
+      "oF" : 0
+    },
+    "\/happyhour-old.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/happyhour-old.html",
+      "oF" : 0
+    },
     "\/happyhour-pre-pandemic.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/happyhour-pre-pandemic.html",
-      "oF" : 0
-    },
-    "\/happyhour.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/happyhour.html",
       "oF" : 0
     },
     "\/humans.txt" : {
@@ -301,6 +339,14 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/img",
+      "oF" : 0
+    },
+    "\/index-as-of-230814.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index-as-of-230814.html",
       "oF" : 0
     },
     "\/index-pre-pandemic.html" : {
@@ -591,20 +637,20 @@
       "oAP" : "\/robots.txt",
       "oF" : 0
     },
+    "\/roomservice-bak.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/roomservice-bak.html",
+      "oF" : 0
+    },
     "\/roomservice-pre-pandemic.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/roomservice-pre-pandemic.html",
-      "oF" : 0
-    },
-    "\/roomservice.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/roomservice.html",
       "oF" : 0
     },
     "\/site.webmanifest" : {
@@ -1453,9 +1499,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1467,6 +1510,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -1521,9 +1567,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
